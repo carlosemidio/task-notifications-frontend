@@ -1,29 +1,72 @@
 # task-notifications
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
 ## Project Setup
+Follow these steps to run the project:
 
-```sh
-npm install
-```
+1. **Copy the environment file**  
+    Duplicate the `.env.example` file and rename it to `.env`:
+    ```sh
+    cp .env.example .env
+    ```
 
-### Compile and Hot-Reload for Development
+2. **Set the API URL**  
+    Open the `.env` file and set the `VITE_API_URL` variable to the tasks list API endpoint:
+    ```env
+    VITE_API_URL=https://your-tasks-list-api-endpoint.com
+    ```
 
-```sh
-npm run dev
-```
+### Using npm:
 
-### Compile and Minify for Production
+1. **Install dependencies**  
+    Run the following command to install the required dependencies:
+    ```sh
+    npm install
+    ```
 
-```sh
-npm run build
-```
+2. **Start the development server**  
+    To compile and hot-reload the project for development, use:
+    ```sh
+    npm run dev
+    ```
+
+3. **Build for production**  
+    To compile and minify the project for production, execute:
+    ```sh
+    npm run build
+    ```
+
+4. **Preview the production build**  
+    To locally preview the production build, run:
+    ```sh
+    npm run preview
+    ```
+
+### Using Yarn:
+
+1. **Install dependencies**  
+    Run the following command to install the required dependencies:
+    ```sh
+    yarn
+    ```
+
+2. **Start the development server**  
+    To compile and hot-reload the project for development, use:
+    ```sh
+    yarn dev
+    ```
+
+3. **Build for production**  
+    To compile and minify the project for production, execute:
+    ```sh
+    yarn build
+    ```
+
+4. **Preview the production build**  
+    To locally preview the production build, run:
+    ```sh
+    yarn preview
+    ```
+    
+5. **Access the application**  
+        Once the development server is running, you can access the application in your browser at:  
+        [http://localhost:5173/](http://localhost:5173/) 
